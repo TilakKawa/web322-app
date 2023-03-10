@@ -3,7 +3,7 @@
 *  I declare that this assignment is my own work in accordance with Seneca  Academic Policy.  No part *  of this assignment has been copied manually or electronically from any other source 
 *  (including 3rd party web sites) or distributed to other students.
 * 
-*  Name: Tilak Rajeshkumar Kawa_ Student ID: 164542219_ Date: 19th Feb 2023__
+*  Name: Tilak Rajeshkumar Kawa_ Student ID: 164542219_ Date: 19th Feb 2023
 *
 *  Online (Cyclic) Link: https://fantastic-cyan-blackbuck.cyclic.app
 *
