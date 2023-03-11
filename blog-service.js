@@ -44,6 +44,23 @@ function getAllPosts() {
   });
 }
 
+function getPublishedPostsByCategory(category) {
+  return new Promise((resolve, reject) => {
+      let publishedPosts = [];
+      posts.forEach((post) => {
+          if (post.published == true && post.category == category) {
+              publishedPosts.push(post);
+          }
+      });
+
+      if (publishedPosts.length == 0) {
+          reject("No results returned");
+      } else {
+          resolve(publishedPosts);
+}
+});
+}
+
 function getPublishedPosts() {
   return new Promise((resolve, reject) => {
     let publishedPosts = [];
