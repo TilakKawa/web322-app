@@ -23,6 +23,7 @@ const exphbs = require("express-handlebars");
 const stripJs = require("strip-js");
 const blogData = require("./blog-service");
 
+
 const {
   initialize,
   getAllPosts,
@@ -46,8 +47,7 @@ const {
 app.use(express.static("public"));
 
 
-app.use(function (req, res, next)
- {
+app.use(function (req, res, next) {
   let route = req.path.substring(1);
   app.locals.activeRoute =
     "/" +
