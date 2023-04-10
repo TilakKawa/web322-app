@@ -23,6 +23,7 @@ const exphbs = require("express-handlebars");
 const stripJs = require("strip-js");
 const blogData = require("./blog-service");
 const authData = require("./auth-service");
+const clientSessions = require("client-sessions");
 
 const {
   initialize,
