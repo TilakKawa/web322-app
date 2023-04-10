@@ -22,7 +22,7 @@ let User;
 function initialize() {
     return new Promise((resolve, reject) => {
         let db = mongoose.createConnection(
-            "mongodb+srv://kuldeep:kuldeep@cluster0.enrpc7p.mongodb.net/?retryWrites=true&w=majority",
+            "mongodb+srv://kawatilak:admin@cluster0.oom1e1k.mongodb.net/?retryWrites=true&w=majority",
             { useNewUrlParser: true, useUnifiedTopology: true }
         );
         db.on("error", (err) => {
